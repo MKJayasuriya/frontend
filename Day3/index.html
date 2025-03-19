@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Style a Simple Webpage</title>
+
+		<!-- Internal CSS -->
+		<style>
+			body {
+				margin: 0;
+				padding: 20px;
+				background-color: #f0f0f0;
+				color: #333;
+				font-size: 16px;
+			}
+		</style>
+
+		<!-- External CSS -->
+		<link rel="stylesheet" href="https://example.com/css/style.css" />
+
+		<!-- In inherits from internal and external styles -->
+	</head>
+	<body
+		style="
+			background-color: #f0f0f0;
+			font-family: Arial, sans-serif;
+			font-size: 16px;
+		"
+	>
+		<!-- Style applied to elements -->
+		<p>Paragraph styling with colors, font size.</p>
+		<style>
+			p {
+				color: #ff0000;
+				font-size: 24px;
+			}
+		</style>
+
+		<!-- Another element using inherited styles -->
+		<div>
+			<h1>Heading with default style</h1>
+		</div>
+	</body>
+</html>
